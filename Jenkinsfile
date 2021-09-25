@@ -1,4 +1,4 @@
-<!-- just a comment -->
+/* just a comment */
 
 pipeline {
 
