@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git branch: 'develop', url:'https://github.com:caw916/addressbook.git'
+        git branch: 'develop', url:'https://github.com/caw916/addressbook.git'
 
       }
 
