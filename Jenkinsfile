@@ -12,16 +12,6 @@ pipeline {
 
   stages {
 
-    stage ('Checkout the code'){
-
-      steps {
-
-        git branch: 'develop', url:'https://github.com/caw916/addressbook.git'
-
-      }
-
-    }
-
     stage('Code Compile') {
 
       steps {
